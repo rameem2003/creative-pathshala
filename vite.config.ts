@@ -13,4 +13,7 @@ export default defineConfig({
       entry: "server",
     },
   },
+  preview: {
+    allowedHosts: ["creative-pathshala.onrender.com"],
+  },
 });
